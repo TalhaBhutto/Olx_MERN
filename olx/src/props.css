@@ -8,3 +8,5 @@ hh,h2,h3,h4,h5,h6{
 .rel{position: relative;}
 .abs{position: absolute;}
 .sticky{position: sticky;}
+.flex{display: flex;}
+.aic{align-items: center;}

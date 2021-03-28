@@ -1,6 +1,8 @@
-import React from "react";
+import React , {useState} from "react";
 
 const HomePage=()=>{
+    const [list,setList]=useState([]);
+    const [loading,setLoading]=useState(true);
     return(
         <div>
 

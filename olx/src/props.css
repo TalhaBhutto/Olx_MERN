@@ -12,7 +12,10 @@ hh,h2,h3,h4,h5,h6{
 .sticky{position: sticky;}
 input,button,select,textarea{outline: none;}
 .flex{display: flex;}
+.bl{display: block;}
+.ibl{display: inline-block;}
 .aic{align-items: center;}
+button{cursor: pointer;}
 .font{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -39,3 +42,14 @@ input,button,select,textarea{outline: none;}
 .s22{font-size: 22px;}
 .s24{font-size: 24px;}
 .s30{font-size: 30px;}
+
+.noul{
+    text-decoration: none;
+
+}
+.noulh:hover{
+    text-decoration: underline;
+}
+.cfff{
+    color: #ffffff;
+}

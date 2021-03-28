@@ -94,6 +94,7 @@
 .hnav .view-cate{
   border: 0px;
   padding: 10px 15px;
+  margin-left: 22px;
   background: rgba(0,0,0,0);
 }
 .hnav .view-cate .arrow{
@@ -112,4 +113,79 @@
 .hnav a:hover{
 text-decoration: none;
 color: rgb(112, 112, 216);  
+}
+.home-page{
+  position: absolute;
+  top:110px;
+  left: 45px;
+  right: 45px;
+  z-index: 7;
+  margin-left: 50px;
+}
+.AddList{
+  flex-wrap: wrap;
+  
+}
+.AddItem{
+  max-width: 288px;
+  min-width: 220px;
+  max-height: 266px;
+  flex-basis: 22%;
+  margin: 8px;
+  border: 1px #ddd solid;
+  padding: 8px;
+
+}
+.AddItem .poster{
+  height: 160px;
+
+}
+.AddItem .poster.placeholder{
+  
+}
+.AddItem .title{
+  margin: 5px 0px;
+}
+.AddItem .title.placeholder{
+  height: 25px;
+  width: 50%;
+  
+}
+.AddItem .tagline{
+  
+}
+.AddItem .tagline.placeholder{
+  height: 15px;
+  width: 100%;
+  
+}
+.AddItem .location{
+  margin-top: 25px;
+  flex:2;
+}
+.AddItem .location.placeholder{
+  height: 15px;
+  width: 50%;
+}
+.AddItem .stamp{
+  flex:1;
+  margin: 25px 0px 0px 40px;
+}
+.AddItem .stamp.placeholder{
+  height: 15px;
+  width: 20%;
+}
+.Load-More{
+  margin: 40px auto;
+  display: table;
+  border: 2px #012f34 solid;
+  padding: 8px 16px;
+  border-radius: 4px;
+  height: 50px;
+  width: 110px;
+  background-color: white;
+}
+.Load-More:hover{
+  border: 5px #012f34 solid;
+  
 }

@@ -1,26 +1,28 @@
 import React , {useState} from "react";
 
 const AddItem=(props)=>{
-    if("placeholder" in props){
+    if(props.placeholder){
         return(
             <div className="AddItem">
-                <div className="poster placeholder">
+                <div className="poster anim placeholder">
 
                 </div>
-                <div className="title placeholder">
+                <div className="title anim placeholder">
                     
                 </div>
-                <div className="tagline placeholder">
+                <div className="tagline anim placeholder">
                     
                 </div>
-                <div className="footer flex">
+                <div className="footer anim flex">
                     
                 </div>
-                <div className="location placeholder">
+                <div className="anim flex">
+                <div className="location anim placeholder">
                     
                 </div>
-                <div className="stamp placeholder">
+                <div className="stamp anim placeholder">
                     
+                </div>
                 </div>
             </div>
         );

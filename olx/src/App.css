@@ -117,8 +117,6 @@ color: rgb(112, 112, 216);
 .home-page{
   position: absolute;
   top:110px;
-  left: 45px;
-  right: 45px;
   z-index: 7;
   margin-left: 50px;
 }
@@ -182,10 +180,48 @@ color: rgb(112, 112, 216);
   padding: 8px 16px;
   border-radius: 4px;
   height: 50px;
-  width: 110px;
+  width: 120px;
   background-color: white;
 }
 .Load-More:hover{
   border: 5px #012f34 solid;
+  
+}
+
+.app-ribbon{
+  position: absolute;
+  padding: 0px;
+  background: #f9f9f9;
+  top:1150px;
+}
+.app-ribbon .img{
+ margin-right: 20px;
+ position: relative;
+ left: 100px; 
+}
+.app-ribbon .img img{
+  
+}
+.app-ribbon .meta{
+  padding: 10px;
+  margin: 50px;
+}
+.app-ribbon .meta .title{
+  width: 400px;
+  
+}
+.app-ribbon .slogan{
+  
+}
+.app-ribbon .links{
+  padding:57px;
+}
+.app-ribbon .links .title{
+  
+}
+.app-ribbon .links a{
+  
+}
+.app-ribbon .links a:hover{
   
 }
